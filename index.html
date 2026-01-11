@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Premium Domain For Sale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root{
+  --bg:#020b06;
+  --glass:rgba(0,255,160,0.08);
+  --border:rgba(0,255,160,0.25);
+  --green:#00ffa3;
+  --text:#eafff5;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at top,#043d27,#020b06);
+  color:var(--text);
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.container{
+  width:100%;
+  max-width:520px;
+  background:var(--glass);
+  backdrop-filter: blur(25px) saturate(160%);
+  -webkit-backdrop-filter: blur(25px) saturate(160%);
+  border-radius:26px;
+  border:1px solid var(--border);
+  box-shadow:
+    0 0 40px rgba(0,255,163,.25),
+    inset 0 0 20px rgba(255,255,255,.05);
+  padding:32px 26px;
+  text-align:center;
+}
+
+/* DOMAIN */
+.domain{
+  font-size:clamp(32px,7vw,44px);
+  font-weight:800;
+  color:var(--green);
+  letter-spacing:.5px;
+  text-shadow:0 0 18px rgba(0,255,163,.8);
+  word-break:break-word;
+}
+
+/* TAGLINE */
+.tagline{
+  margin-top:10px;
+  font-size:16px;
+  opacity:.9;
+}
+
+/* FEATURES */
+.features{
+  margin:26px 0;
+  text-align:left;
+  padding:0;
+}
+
+.features li{
+  list-style:none;
+  margin:14px 0;
+  padding-left:30px;
+  position:relative;
+  font-size:15px;
+}
+
+.features li::before{
+  content:"✓";
+  position:absolute;
+  left:0;
+  color:var(--green);
+  font-weight:700;
+}
+
+/* PRICE */
+.price{
+  margin:22px 0;
+  font-size:26px;
+  font-weight:700;
+  text-shadow:0 0 12px rgba(0,255,163,.6);
+}
+
+/* BUTTONS */
+.buttons{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+  margin-top:26px;
+}
+
+.buttons a{
+  text-decoration:none;
+  padding:16px;
+  border-radius:14px;
+  font-weight:600;
+  font-size:16px;
+  transition:.3s ease;
+}
+
+/* BUY BUTTON */
+.buy{
+  background:linear-gradient(135deg,#00ffa3,#00c67a);
+  color:#002b1a;
+  box-shadow:0 0 25px rgba(0,255,163,.6);
+}
+
+.buy:hover{
+  transform:translateY(-2px);
+  box-shadow:0 0 35px rgba(0,255,163,.9);
+}
+
+/* WHATSAPP */
+.whatsapp{
+  border:1px solid var(--green);
+  color:var(--green);
+  background:rgba(0,255,163,.05);
+}
+
+.whatsapp:hover{
+  background:var(--green);
+  color:#002b1a;
+}
+
+/* FOOTER */
+.footer{
+  margin-top:22px;
+  font-size:13px;
+  opacity:.7;
+}
+
+/* IOS FEEL */
+.container:active{
+  transform:scale(.995);
+}
+
+/* SAFE AREA */
+@supports(padding:max(0px)){
+  body{
+    padding-bottom:max(20px,env(safe-area-inset-bottom));
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="domain">YourDomain.com</div>
+
+  <div class="tagline">
+    Premium Betting & Casino Domain — Ready for Launch
+  </div>
+
+  <ul class="features">
+    <li>Perfect for Casino, Betting & iGaming Business</li>
+    <li>Short, Brandable & High Recall Name</li>
+    <li>.COM Extension — Maximum Trust</li>
+    <li>Fast & Secure Ownership Transfer</li>
+  </ul>
+
+  <div class="price">
+    Buy Now: $2,500
+  </div>
+
+  <div class="buttons">
+    <a class="buy" href="mailto:your@email.com">
+      Buy This Domain
+    </a>
+
+    <a class="whatsapp" 
+       href="https://wa.me/880XXXXXXXXXX?text=Hi%2C%20I%20am%20interested%20in%20YourDomain.com"
+       target="_blank">
+      Contact via WhatsApp
+    </a>
+  </div>
+
+  <div class="footer">
+    Serious buyers only • Secure deal • Instant transfer
+  </div>
+
+</div>
+
+</body>
+</html>
