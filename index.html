@@ -2,46 +2,81 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>DhakaBets.com — Premium Domain For Sale</title>
+<title>dhakabets.com — Premium Domain For Sale</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
 :root{
   --bg:#010906;
-  --glass:rgba(255,255,255,0.06);
-  --border:rgba(255,215,120,0.28);
   --green:#00ff9c;
   --gold:#ffd27d;
+  --glass:rgba(255,255,255,0.06);
+  --border:rgba(255,215,120,0.25);
   --text:#f4fff9;
 }
 
 *{box-sizing:border-box}
 
+/* ================= BACKGROUND ================= */
 body{
   margin:0;
   font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;
-  background:
-    radial-gradient(circle at top,#063d2a,#010906);
+  background:radial-gradient(circle at top,#063d2a,#010906);
   color:var(--text);
   min-height:100vh;
+  overflow:hidden;
   display:flex;
   align-items:center;
   justify-content:center;
   padding:20px;
 }
 
+/* Floating particles */
+.particles{
+  position:fixed;
+  inset:0;
+  z-index:-1;
+  overflow:hidden;
+}
+
+.particles span{
+  position:absolute;
+  width:140px;
+  height:140px;
+  background:rgba(0,255,160,0.08);
+  border-radius:50%;
+  filter:blur(45px);
+  animation:float 22s linear infinite;
+}
+
+.particles span:nth-child(1){top:10%;left:15%;animation-duration:26s}
+.particles span:nth-child(2){top:30%;left:70%;animation-duration:30s}
+.particles span:nth-child(3){top:60%;left:25%;animation-duration:24s}
+.particles span:nth-child(4){top:80%;left:80%;animation-duration:34s}
+.particles span:nth-child(5){top:20%;left:55%;animation-duration:28s}
+.particles span:nth-child(6){top:55%;left:5%;animation-duration:32s}
+
+@keyframes float{
+  0%{transform:translateY(0)}
+  50%{transform:translateY(-80px)}
+  100%{transform:translateY(0)}
+}
+
+/* ================= CARD ================= */
 .container{
+  position:relative;
+  z-index:2;
   width:100%;
   max-width:520px;
   background:var(--glass);
-  backdrop-filter:blur(28px) saturate(170%);
-  -webkit-backdrop-filter:blur(28px) saturate(170%);
-  border-radius:28px;
+  backdrop-filter:blur(30px) saturate(170%);
+  -webkit-backdrop-filter:blur(30px) saturate(170%);
+  border-radius:30px;
   border:1px solid var(--border);
   box-shadow:
-    0 0 50px rgba(0,255,160,.25),
+    0 0 55px rgba(0,255,160,.25),
     inset 0 0 30px rgba(255,255,255,.04);
-  padding:36px 28px;
+  padding:38px 28px;
   text-align:center;
 }
 
@@ -105,7 +140,7 @@ body{
 .buttons a{
   text-decoration:none;
   padding:17px;
-  border-radius:16px;
+  border-radius:18px;
   font-weight:700;
   font-size:16px;
   transition:.3s ease;
@@ -146,16 +181,22 @@ body{
 
 <body>
 
+<!-- Floating casino dust -->
+<div class="particles">
+  <span></span><span></span><span></span>
+  <span></span><span></span><span></span>
+</div>
+
 <div class="container">
 
-  <div class="domain">DhakaBets.com</div>
+  <div class="domain">dhakabets.com</div>
 
   <div class="tagline">
     Ultra-Premium Betting & Casino Domain Name
   </div>
 
   <ul class="features">
-    <li>High-value Geo + Betting Brand</li>
+    <li>High-value Geo + Betting Brand (Dhaka)</li>
     <li>Perfect for Casino, Sportsbook & iGaming</li>
     <li>.COM Extension — Maximum Buyer Trust</li>
     <li>Fast, Secure & Instant Ownership Transfer</li>
@@ -163,7 +204,7 @@ body{
 
   <div class="price">
     Buy Now: $5,000 <br>
-    <small style="font-size:14px;opacity:.8;">Minimum Offer: $2,000</small>
+    <small style="font-size:14px;opacity:.85;">Minimum Offer: $2,000</small>
   </div>
 
   <div class="buttons">
@@ -172,7 +213,7 @@ body{
     </a>
 
     <a class="whatsapp"
-       href="https://wa.me/8801317542554?text=Hi%2C%20I%20am%20interested%20in%20DhakaBets.com"
+       href="https://wa.me/8801317542554?text=Hi%2C%20I%20am%20interested%20in%20dhakabets.com"
        target="_blank">
       Contact via WhatsApp
     </a>
@@ -180,7 +221,7 @@ body{
 
   <div class="footer">
     📧 smjshadhin@gmail.com <br>
-    Serious buyers only • Secure deal • Premium asset
+    Serious buyers only • Secure deal • Premium digital asset
   </div>
 
 </div>
