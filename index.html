@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>dhakabets.com — Premium Domain For Sale</title>
+<title>DhakaBets.com — Premium Domain For Sale</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <style>
@@ -13,11 +13,12 @@
   --glass:rgba(255,255,255,0.06);
   --border:rgba(255,215,120,0.25);
   --text:#f4fff9;
+  --dark:#07130e;
 }
 
 *{box-sizing:border-box}
 
-/* ================= BACKGROUND ================= */
+/* ================= BODY ================= */
 body{
   margin:0;
   font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;
@@ -31,7 +32,7 @@ body{
   padding:20px;
 }
 
-/* Floating particles */
+/* ================= FLOATING CASINO DUST ================= */
 .particles{
   position:fixed;
   inset:0;
@@ -76,31 +77,47 @@ body{
   box-shadow:
     0 0 55px rgba(0,255,160,.25),
     inset 0 0 30px rgba(255,255,255,.04);
-  padding:38px 28px;
+  padding:40px 30px;
   text-align:center;
 }
 
-/* DOMAIN */
+/* ================= DOMAIN TITLE ================= */
 .domain{
-  font-size:clamp(34px,7vw,46px);
+  font-size:clamp(36px,8vw,48px);
   font-weight:900;
-  background:linear-gradient(135deg,var(--green),var(--gold));
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  text-shadow:0 0 22px rgba(0,255,156,.6);
-  letter-spacing:.6px;
+  letter-spacing:.5px;
 }
 
-/* TAGLINE */
+.domain .dhaka{
+  color:#0b1a14;
+  text-shadow:
+    0 0 8px rgba(0,0,0,.6),
+    0 0 18px rgba(0,0,0,.4);
+}
+
+.domain .bets{
+  color:var(--green);
+  text-shadow:
+    0 0 12px rgba(0,255,156,.8),
+    0 0 25px rgba(0,255,156,.6),
+    0 0 40px rgba(0,255,156,.4);
+}
+
+.domain .dot{
+  color:#9fbfb3;
+  margin-left:2px;
+}
+
+/* ================= TAGLINE ================= */
 .tagline{
-  margin-top:12px;
+  margin-top:14px;
   font-size:16px;
   opacity:.9;
 }
 
-/* FEATURES */
+/* ================= FEATURES ================= */
 .features{
-  margin:30px 0;
+  margin:32px 0;
   padding:0;
   text-align:left;
 }
@@ -120,7 +137,7 @@ body{
   color:var(--gold);
 }
 
-/* PRICE */
+/* ================= PRICE ================= */
 .price{
   margin:26px 0;
   font-size:28px;
@@ -129,24 +146,24 @@ body{
   text-shadow:0 0 18px rgba(255,210,125,.6);
 }
 
-/* BUTTONS */
+/* ================= BUTTONS ================= */
 .buttons{
   display:flex;
   flex-direction:column;
   gap:16px;
-  margin-top:30px;
+  margin-top:32px;
 }
 
 .buttons a{
   text-decoration:none;
-  padding:17px;
+  padding:18px;
   border-radius:18px;
   font-weight:700;
   font-size:16px;
   transition:.3s ease;
 }
 
-/* BUY */
+/* BUY BUTTON */
 .buy{
   background:linear-gradient(135deg,var(--green),#00c97a);
   color:#002b1a;
@@ -158,7 +175,7 @@ body{
   box-shadow:0 0 45px rgba(0,255,160,.9);
 }
 
-/* WHATSAPP */
+/* WHATSAPP BUTTON */
 .whatsapp{
   border:1px solid var(--gold);
   color:var(--gold);
@@ -170,7 +187,7 @@ body{
   color:#1a1205;
 }
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 .footer{
   margin-top:26px;
   font-size:13px;
@@ -189,7 +206,10 @@ body{
 
 <div class="container">
 
-  <div class="domain">dhakabets.com</div>
+  <!-- DOMAIN NAME -->
+  <div class="domain">
+    <span class="dhaka">Dhaka</span><span class="bets">Bets</span><span class="dot">.com</span>
+  </div>
 
   <div class="tagline">
     Ultra-Premium Betting & Casino Domain Name
@@ -213,7 +233,7 @@ body{
     </a>
 
     <a class="whatsapp"
-       href="https://wa.me/8801317542554?text=Hi%2C%20I%20am%20interested%20in%20dhakabets.com"
+       href="https://wa.me/8801317542554?text=Hi%2C%20I%20am%20interested%20in%20DhakaBets.com"
        target="_blank">
       Contact via WhatsApp
     </a>
